@@ -7,7 +7,7 @@ export const CardContainer = styled.div`
   margin: 10px;
   border-radius: 12px;
   width: 300px;
-  height: 200px;
+  height: 250px;
   border: 2px solid black;
 `;
 export const Title = styled.div`

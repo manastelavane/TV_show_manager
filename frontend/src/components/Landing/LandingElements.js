@@ -41,7 +41,7 @@ export const LandingBg = styled.div`
 
 export const BgImg = styled.img`
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 0;
   height: 100vh;
   width: 100%;
@@ -49,8 +49,8 @@ export const BgImg = styled.img`
   object-fit: cover;
   background-size: cover;
   transform: rotateY(-10deg) rotateX(20deg) scale(1.3);
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
 
   @media screen and (max-width: 760px) {
     top: 90px;

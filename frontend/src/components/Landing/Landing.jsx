@@ -1,6 +1,5 @@
 /* eslint-disable */
-import desktopImage from '../../assets/DesktopBgImg.png';
-import mobileImage from '../../assets/MobileBgImg.png';
+import desktopImage from '../../assets/tvshowmanager.png';
 
 import {
   LandingContainer,
@@ -18,7 +17,7 @@ import { signin } from '../../actions/user';
 const Landing = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const BgImgSrc = window.innerWidth >= 690 ? desktopImage : mobileImage;
+  const BgImgSrc =  desktopImage ;
   const handleClick = () => {
     dispatch(signin('', navigate));
   };
